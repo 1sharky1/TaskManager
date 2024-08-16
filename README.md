@@ -2,7 +2,7 @@
 
 ## How to build:
 
-sudo apt update
+sudo apt update && sudo apt upgrade
 
 sudo apt-get install libsfml-dev
 
