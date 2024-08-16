@@ -1,6 +1,4 @@
 
-
-#include <iostream>
 #include "manager.hpp"
 
 
