@@ -49,6 +49,5 @@ public:
     /* uint getFreeRAM();
     uint getUsedRAM(); */
     float getUsedRAMpersents();
-    //bool FilesOpened();
 
 };
