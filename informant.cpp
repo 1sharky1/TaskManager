@@ -5,7 +5,6 @@
 
 Informant::Informant(){
 
-    // ПОЛУЧЕНИЕ СВЕДЕНИЙ О МОДЕЛИ ПРОЦЕССОРА
     std::string line;
     this->CPUModel = "Unknown";
     this->CPUModelFile.open("/proc/cpuinfo");
