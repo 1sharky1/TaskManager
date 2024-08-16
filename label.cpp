@@ -1,7 +1,5 @@
 
 #include "label.hpp"
-#include <iostream>
-#include <math.h>
 
 Label::Label(sf::RenderWindow *mainWindow, uint width, uint height, uint posX, uint posY, sf::Color fillColor, sf::Color OutColor, sf::Color textColor){
 
