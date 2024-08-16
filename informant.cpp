@@ -11,13 +11,12 @@ Informant::Informant(){
     if (this->CPUModelFile.is_open()){
         while(std::getline(this->CPUModelFile, line)){
             if(line.find("model name") != std::string::npos){
-
                 this->CPUModel = line;
+                this->CPUModel.erase(0, 13);
                 break;
             }
         }
         this->CPUModelFile.close();
-        this->CPUModel.erase(0, 13);
     }
     else{
         std::cerr<<"Error getting CPU Model"<<std::endl;
