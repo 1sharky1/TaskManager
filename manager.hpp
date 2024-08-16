@@ -47,7 +47,7 @@ private:
 
     void Render();
 
-    void Init(); // ?????
+    void Init();
 
     void UpdateData();
 
